@@ -14,7 +14,8 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
-    runs-on: sweetvishnya/proceedings
+    runs-on: ubuntu-latest
+    container: sweetvishnya/proceedings
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
