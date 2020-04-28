@@ -25,5 +25,6 @@ jobs:
     # Build
     - name: Build
       run: |
+        mkdir -p ~/.texlive2017/texmf-var
         pdfannotextractor --install
         make
