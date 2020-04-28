@@ -25,6 +25,7 @@ jobs:
     # Build
     - name: Build
       run: |
-        sudo apt install texlive-full openjdk-11-jre
+        apt update
+        apt install texlive-full openjdk-11-jre
         pdfannotextractor --install
         make
