@@ -27,5 +27,5 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install texlive-full openjdk-11-jre
-        pdfannotextractor --install
+        sudo pdfannotextractor --install
         make
