@@ -5,7 +5,7 @@
 
 ## Зависимости
 
-    $ sudo apt install texlive-full openjdk-11-jre
+    $ sudo apt install texlive-full openjdk-11-jre make
     $ pdfannotextractor --install
 
 ## Сборка
